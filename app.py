@@ -43,8 +43,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------- TITLE ----------------
-st.title("📈 AI Powered Stock Price Predictor")
-st.markdown("### Smart Prediction using Machine Learning + News Sentiment Analysis")
+st.title("📈 Analysis of News Articles to Predict Stock Prices")
+st.markdown("### Using Machine Learning & News Sentiment Analysis")
 st.write("---")
 
 # ---------------- SIDEBAR ----------------
@@ -167,4 +167,5 @@ if predict_btn:
 
     st.write("---")
     st.subheader("📉 Last 1 Year Closing Price")
+
     st.line_chart(df["Close"])
