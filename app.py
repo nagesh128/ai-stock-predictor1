@@ -23,7 +23,7 @@ nltk.download('vader_lexicon')
 NEWS_API_KEY = "b418468058fe451db789c005ebd1d12c"
 
 # ---------------- TITLE ----------------
-st.title("📈 AI Powered Stock Price Predictor")
+st.title("📈 Analysis of News Articles To Predict Stock Prices")
 st.markdown("### Smart Prediction using Machine Learning + News Sentiment Analysis")
 st.write("---")
 
